@@ -11,19 +11,60 @@
 </head>
 
 <body>
+    <style>
+        header {
+            background-color: yellow;
+            padding-bottom: 5px;
+            padding-top: 15px;
+            padding-left: 15px;
+        }
+        img {
+            width: 250px;
+        }
+        
+        table {
+            border: 1px solid;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+        th {
+            padding-right: 25px;
+            padding-left: 25px;
+        }
+        caption {
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+        iframe {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+        aside div {
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
+        footer{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
     <header>
         <div>
             <img src="img/logo.svg" alt="logo">
-            <p>Epicode il blog dei Developers</p>
+            <p><strong>EPICODE IL BLOG DEI DEVELOPERS</strong></p>
         </div>
-        <hr>
+
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Articoli</a></li>
                 <li><a href="#">Job</a></li>
             </ul>
-
         </nav>
     </header>
 
@@ -34,31 +75,42 @@
             <p>pubblicato il 25-2-2020</p>
 
             <p>
-                La prima cosa da fare Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptates impedit,
-                sint
-                nostrum eum magnam, ullam error reprehenderit assumenda vitae similique nobis minima repellendus
-                debitis,
-                sequi tempora doloribus blanditiis sunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
-                officia quas quaerat in sunt, quisquam tempora impedit, pariatur rerum, reprehenderit corrupti totam.
-                Enim
-                molestias illum libero rerum, natus blanditiis itaque?
-                Reiciendis, quod repellendus explicabo aspernatur voluptates, ratione doloremque ex quasi eveniet vero
-                quae
-                repudiandae sed possimus necessitatibus corporis autem illo aperiam maiores eligendi nobis enim velit
-                fugiat
-                itaque molestias? Corporis.
-                Similique nesciunt quisquam eaque assumenda? Voluptatem sed maiores officiis ex ipsa atque iure alias,
-                debitis, illum labore accusantium minus quae fugiat! Repellat, alias dolorem nesciunt libero itaque iste
-                reprehenderit error?
+                La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da
+                applicare a tutte le pagine
             </p>
 
+            <div>
+                <p>Le varie aree saranno quindi suddivise in:</p>
+                <ul>
+                    <li>Contenuti di intestazione del tag header</li>
+                    <li>Contenuti centrali variabili del tag main</li>
+                    <li>Contetnuti di fine pagina comuni, da inserire nel tag footer</li>
+                    <li>Formattazione del codice</li>
+                </ul>
+            </div>
+
+            <div>
+                <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i
+                    css. Perciò i passi saranno:</p>
+                <ul>
+                    <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
+                    <li>Scrivere l'HTML dai tag esterrni a quelli interni e dall'alto verso il basso</li>
+                    <li>Applicare gli stili css</li>
+                    <li>L'applicazione di stili css è cresciuta negli anni fino a raggiungere la diffusione pressochè
+                        totale</li>
+                </ul>
+            </div>
+
             <table>
-                <caption>Diffusione css</caption>
+                <thead>
+                <caption><strong>DIFFUSIONE CSS</strong></caption>
                 <tr>
-                    <th>Nome</th>
+                    <th>Anno</th>
                     <th>% di utilizzo</th>
                     <th>Supporto browsers</th>
                 </tr>
+            </thead>
+            <tbody>
                 <tr>
                     <td>2000</td>
                     <td>10%</td>
@@ -84,54 +136,62 @@
                     <td>50%</td>
                     <td>40%</td>
                 </tr>
+            </tbody>
             </table>
 
             <p>
-                Un test di validazione potrà essere fatto tramite il tool online -LINK ESTERNO- dedicato allo scopo. una
+                Un test di validazione potrà essere fatto tramite il tool online <a href="#">LINK AL TOOL</a> dedicato
+                allo scopo. una
                 volta ottimizzato di tuttom avremmo raggiunto il nostro obiettivo ed essere stati dei veri developers
-                come
-                loro -INSERIRE VIDEO YOUTUBE-
+                come loro:
+                <iframe width="504" height="279" src="https://www.youtube.com/embed/pnNCvnlmJXg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
             </p>
         </article>
 
-
-
     </main>
+
     <aside>
         <div>
-            <p>Vuoi rimanere aggiornato, iscriviti alla newsletter</p>
+            <p><em>Vuoi rimanere aggiornato, iscriviti alla newsletter</em></p>
             <form>
-                <input type="email" name="email" placeholder="mia mail">
-                <button>iscriviti</button>
+                <input type="email" name="email" placeholder="La mia mail">
+                <button>Iscriviti</button>
             </form>
         </div>
-
-        <h2>Articoli correlati</h2>
+        
+        <h2>Articoli correlati:</h2>
 
         <article>
             <a href="#"><h4>Validare il codice html</h4></a>
             <p>categoria: develop</p>
-            <p>data: 5949</p>
+            <p>data: 10/6/2021</p>
         </article>
+        <hr>
 
         <article>
             <a href="#"><h4>Correggere la sintassi</h4></a>
             <p>categoria: develop</p>
-            <p>data: 9494</p>
+            <p>data: 4/2/2020</p>
         </article>
+
+        <hr>
 
         <article>
             <a href="#"><h4>Meno kb nella pagina</h4></a>
             <p>categoria: ottimizzazione</p>
-            <p>data: 18318</p>
+            <p>data: 11/10/2022</p>
+
         </article>
 
-        
+
     </aside>
 
     <footer>
-        <p>Copiright Blog Epicode 2022</p>
-        <p>Testata online di Mario Rossi Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptate voluptatibus iure explicabo, inventore quos commodi voluptates cum! Quia ipsa autem alias quasi mollitia rem placeat molestias, vitae ipsum dolor. <a href="info@epicode.school">Email</a></p>
+        <p>Copiright Blog Epicode &copy 2022</p>
+        <p>Testata online di Mario Rossi registrata con prot. n.213/2018 - via Luigi Enaudi 2 - Milano. P.iva12324124<a href="info@epicode.school">info@epiocode.school</a></p>
 
     </footer>
 </body>
