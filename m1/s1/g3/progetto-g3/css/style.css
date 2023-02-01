@@ -1,0 +1,49 @@
+header{
+    text-align: center;
+}
+header img{
+    width: 150px;
+}
+header div{
+    font-size: small;
+    background-color: rgba(235, 203, 89, 0.1);
+    border-top: 1px solid; 
+    border-color: orange ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    color: rgb(74, 157, 85);
+}
+main{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+h1{
+    text-align: center;
+}
+.scritta {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgba(100, 100, 102, 0.5);
+}
+.boxFeat{
+    color: red;
+    padding-left: 15px;
+    border-left: 1px solid;
+    border-color: orange;
+
+}
+h2{
+    border-bottom: 1px solid;
+    border-color: rgb(74, 157, 85);
+    padding-bottom: 15px;
+    margin-top: 40px;
+}
+ul li{
+    margin-bottom: 15px;
+}
+.prep{
+    margin-left: 35px;
+}
+
