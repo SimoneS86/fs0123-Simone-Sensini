@@ -1,3 +1,11 @@
+@font-face {
+    font-family: personale;
+    src: url(../Noto_Serif/NotoSerif-Regular.ttf) format('truetype');
+    
+}
+body{
+    font-family: personale;
+}
 header{
     text-align: center;
 }
@@ -15,8 +23,8 @@ header div{
     color: rgb(74, 157, 85);
 }
 main{
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 h1{
     text-align: center;
@@ -46,4 +54,5 @@ ul li{
 .prep{
     margin-left: 35px;
 }
+
 
