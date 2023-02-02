@@ -1,65 +1,204 @@
 /* IMPOSTAZIONI GENERALI */
 *{
     margin: 25px;
+    font-family: 'Poppins', sans-serif;
+    line-height: normal;
 }
+
+
 body{
     max-width: 450px;
     max-height: 500px;
+    background-image: url(../img/sfondo.png);
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../img/sfondo.png);
 }
+
 /* HEADER */
 header{
+    font-family: 'Poppins', sans-serif;
     margin: 25px;
     background-color: rgb(29, 136, 136);
     text-align: center;
 }
+
+
 header p{
     margin-bottom: 15px;
-    font-weight: bolder;
+    
     color: white;
 }
+
+
 header img{
     margin: 25px;
 }
+
+
 nav ul{
     padding-bottom: 25px;
     list-style-type: none;
     
 }
+
+
 nav ul li{
     margin-bottom: 5px;
     
 }
+
+
 nav ul li a{
     text-decoration: none;
     color: white;
     
 }
+
+
 main{
     background-color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    
 
 }
+
+
 h1{
     font-size: xx-large;
     font-weight: bolder;
     margin-bottom: 25px;
     padding-top: 25px;
 }
+
+
 #grigio{
     margin: 25px 0 25px 0;
     color: rgba(152, 148, 148, 0.8);
 }
+
+
 article ul{
     margin-left: 25px;
+    margin-bottom: 25px;
 }
-ol{
-    list-style-type: none;
-}
+
+
 p{
     margin-bottom: 25px;
 }
+
+
+article ol{
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+
+table{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+    border-bottom: rgb(49, 83, 206) 2px solid;
+    
+}
+
+
+tr:nth-of-type(even){
+    background-color: rgb(188, 186, 186);
+}
+
+
+th{
+    background-color: rgb(52, 79, 217);
+    border-right: gray 1px solid;
+    padding: 20px 0 20px 0;
+}
+
+
+td{
+    padding: 10px;
+}
+
+
+caption{
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+section{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color:rgb(226, 226, 226);;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+iframe{
+    border-radius: 10%;
+}
+
+
+button{
+    margin: 0;
+    padding: 5px;
+    color: white;
+    background-color: blue; 
+}
+
+
+form input {
+    margin: 0;
+    padding: 5px;
+}
+
+
+fieldset {
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+
+aside div{
+    margin-bottom: 25px;
+    background-color: rgb(226, 226, 226);
+    border-color: rgb(196, 194, 194);
+    padding: 25px;
+}
+
+
+.data{
+    text-align: right;
+    margin-bottom: 0;
+}
+
+
+footer{
+    background-color: rgb(26, 121, 121);
+    margin: 25px;
+    text-align: center;
+    padding: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+
+footer a{
+    color:rgb(78, 15, 138);
+    font-weight: bolder;
+}
+
+
+h3{
+    text-align: center;
+    font-weight: bolder;
+    padding: 15px;
+}
+
+
 
 
 
