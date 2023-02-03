@@ -1,0 +1,122 @@
+/* Your styles here */
+body{
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+}
+header{
+    background-color:black;
+    padding: 25px 0;
+    text-align: center;
+}
+
+header img{
+    width: 30%;
+}
+main{
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: xx-large;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+#banner{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    padding: 45px;
+}
+
+section a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 9px 36px;
+    border: black 1px;
+    border-radius: 5%;
+    background-color:orangered;
+    color: white;
+    
+}
+.titolo{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+.testo{
+    margin-bottom: 25px;
+}
+
+#centro{
+    padding: 45px
+}
+#centro img{
+    border-radius: 100%;
+    max-width: 350px;
+    margin-bottom: 25px;
+}
+#last{
+    color: white;
+    padding: 35px;
+    background-color: #e22d0e;
+    margin-bottom: 50px;
+}
+.titologrande{
+    color: white;
+    font-family: 'Montserrat', sans-serif ;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: xx-large;
+}
+#corsivo{
+    font-style: italic;
+    font-size: smaller;
+    font-weight:lighter;
+    margin: 25px 0;
+}
+#piccolo{
+    font-size: x-small;
+    font-weight: lighter;
+}
+aside div{
+    border: #dee1e3 1px solid;
+    margin: 0 auto 25px auto;
+    max-width: 400px;
+}
+aside img{
+    max-width: 400px;
+    margin-bottom: 25px;
+}
+footer{
+    background-color: #25a2c3;
+    padding: 25px 0 50px 0;
+    text-align: center;
+    color: #c8e7f0;
+}
+footer a{
+    display: block;
+    color: #c8e7f0;
+    font-size: smaller;
+}
+#nonsottolineato{
+    text-decoration: none;
+}
+hr{
+    margin: 35px auto;
+    max-width: 60%;
+}
+#inline{
+    display: inline;
+}
+
