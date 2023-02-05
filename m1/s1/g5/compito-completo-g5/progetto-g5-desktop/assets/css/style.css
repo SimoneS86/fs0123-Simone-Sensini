@@ -59,16 +59,18 @@ section a{
 }
 
 #centro {
+    width: 100%;
     padding: 45px
 }
 #centro img{
+    max-width: 100%;
     border-radius: 100%;
     padding: auto;
-    display: inline;
+    
     
 }
 #centro div{
-    display: inline;
+    
     text-align: left;
     
 
@@ -76,8 +78,10 @@ section a{
 table{
     width: 100%;
 }
+
 table td{
-    width: 50%;
+    
+    width: 40%;
     vertical-align: middle;
     padding: 40px;
 }
@@ -152,6 +156,9 @@ hr{
     max-width: 30%;
 }
 #inline{
+    display: inline;
+}
+address{
     display: inline;
 }
 
