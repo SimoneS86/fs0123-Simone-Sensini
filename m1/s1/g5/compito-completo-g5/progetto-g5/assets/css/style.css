@@ -118,4 +118,7 @@ hr{
 #inline{
     display: inline;
 }
+address{
+    display: inline;
+}
 
