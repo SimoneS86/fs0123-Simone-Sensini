@@ -153,12 +153,20 @@ footer a{
 }
 hr{
     margin: 35px auto;
-    max-width: 30%;
+    max-width: 20%;
 }
 #inline{
     display: inline;
 }
 address{
     display: inline;
+}
+footer div{
+    max-width: 20%;
+    margin: 0 auto;
+    text-align: left;
+}
+footer p{
+    margin: 20px 0;
 }
 

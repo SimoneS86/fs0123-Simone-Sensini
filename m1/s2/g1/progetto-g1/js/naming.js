@@ -4,6 +4,9 @@ if (animale == 'criceto' || animale == 'coniglio') {
     console.log(animale);
 }else if (animale == 'pantera') {
     document.write(animale);
-}else {
+}else if (!isNaN(animale)){
+    alert('non hai inserito un nome valido')
+}
+else {
     alert ('Che carino!')
 }
