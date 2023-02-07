@@ -50,7 +50,7 @@ nome = 'Sensini';
 console.log(nome);
 
 const NUM = 1;
-//ABC = 2;     ERRORE: Uncaught TypeError: Assignment to constant variable.
+//NUM = 2;     ERRORE: Uncaught TypeError: Assignment to constant variable.
 console.log(NUM);
 
 
