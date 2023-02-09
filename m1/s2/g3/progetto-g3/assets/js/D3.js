@@ -23,6 +23,14 @@ if (num !== 5) {
   console.log(num + " è uguale a 5");
 }
 
+/*risolto con una funzione*/
+
+function uguale5(num) {
+  if (num !== 5) {
+    console.log("not equal");
+  }
+}
+
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: cerca l'operatore modulo su un motore di ricerca)
@@ -34,6 +42,14 @@ if (num2 % 5 === 0) {
   console.log(num2 + " è perfettamente divisibile per 5");
 } else {
   console.log(num2 + " non è perfettamente divisibile per 5");
+}
+
+/*risolto con una funzione*/
+
+function divisibilePer5(num) {
+  if (num % 5 === 0) {
+    console.log("divisibile per 5");
+  }
 }
 
 /* ESERCIZIO 4
@@ -49,6 +65,13 @@ if (numero1 === 8 || numero2 === 8 || numero1 + numero2 === 8 || numero1 - numer
   console.log("Falso");
 }
 
+/*risolto con una funzione*/
+
+function verifica8(a, b) {
+  if (a === 8 || b === 8 || a + b === 8 || a - b === 8) {
+    console.log("8!!!!!!");
+  }
+}
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
@@ -70,6 +93,16 @@ console.log("Il costo di spedizione è di: " + costi);
 console.log("Il costo totale addebitato all'utente è di: " + totale);
 
 
+/*risolto con una funzione*/
+
+function calcolaTotale(totalShoppingCart) {
+  let costiSped = 10;
+  if (totalShoppingCart > 50) {
+    costiSped = 0;
+  }
+  return totalShoppingCart + costiSped;
+}
+
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
@@ -89,6 +122,17 @@ console.log("Il totale del carrello è di: " + totalShoppingCart2);
 console.log("Lo sconto è di: " + totalShoppingCart2 * sconti);
 console.log("Il costo di spedizione è di: " + costi2);
 console.log("Il costo totale addebitato all'utente è di: " + totale2);
+
+/*risolto con una funzione*/
+
+function calcolaTotaleBF(totalShoppingCart) {
+  let spedizioni = 10;
+  if (totalShoppingCart > 50) {
+    spedizioni = 0;
+  }
+  totalShoppingCart = totalShoppingCart * 0.8;
+  return totalShoppingCart + spedizioni;
+}
 
 
 /* ESERCIZIO 7
