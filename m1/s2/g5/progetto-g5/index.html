@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Calcolatrice</title>
+</head>
+<body>
+    
+    <div id="calcolatrice">
+        
+        <input type="text" id="display" disabled>
+        
+        
+        <button data-simbolo="C" onclick="reset()" class="button">C</button>
+        <button data-simbolo="&larr;" onclick="cancel()" class="button">&larr;</button>
+        <button data-simbolo="%" onclick="digita(this)" class="button">mod</button>
+        <button data-simbolo="/" onclick="digita(this)" class="button">/</button>
+        
+        <button data-simbolo="7" onclick="digita(this)" class="button">7</button>
+        <button data-simbolo="8" onclick="digita(this)" class="button">8</button>
+        <button data-simbolo="9" onclick="digita(this)" class="button">9</button>
+        <button data-simbolo="*" onclick="digita(this)" class="button">x</button>
+        
+        <button data-simbolo="5" onclick="digita(this)" class="button">5</button>
+        <button data-simbolo="6" onclick="digita(this)" class="button">6</button>
+        <button data-simbolo="4" onclick="digita(this)" class="button">4</button>
+        <button data-simbolo="-" onclick="digita(this)" class="button">-</button>
+        
+        <button data-simbolo="1" onclick="digita(this)" class="button">1</button>
+        <button data-simbolo="2" onclick="digita(this)" class="button">2</button>
+        <button data-simbolo="3" onclick="digita(this)" class="button">3</button>
+        <button data-simbolo="+" onclick="digita(this)" class="button">+</button>
+        
+        <button data-simbolo="0" onclick="digita(this)" class="button">0</button>
+        <button data-simbolo="." onclick="digita(this)" class="button">.</button>
+        <button data-simbolo="=" onclick="totale()" class="button" id="uguale">=</button>
+    </div>
+    
+
+
+
+
+<script src="assets/js/calc.js"></script>
+</body>
+</html>
