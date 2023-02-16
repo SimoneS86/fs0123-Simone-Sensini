@@ -160,9 +160,9 @@
       */
 
       const changeFooterText = function () {
-        let colore = document.querySelector('.footer');
-        colore.addEventListener('click', function () {
-        colore.textContent = 'Bravo hai cliccato';
+        let testo = document.querySelector('.footer');
+        testo.addEventListener('click', function () {
+        testo.textContent = 'Bravo hai cliccato';
         });
 
       }
@@ -174,7 +174,7 @@
       */
 
       let input = document.getElementById('input-field')
-      input.addEventListener('keyup', () => console.log(input.value.slice(-1)));
+      input.addEventListener('keyup', () => console.log(input.value));
 
       /* ESERCIZIO 12
        Crea un messaggio di benvenuto con un alert quando la pagina ha finito di caricarsi.
