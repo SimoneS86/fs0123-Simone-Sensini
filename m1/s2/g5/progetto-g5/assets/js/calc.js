@@ -52,7 +52,7 @@ function creaTruppe(){
     let ragno = document.createElement("img");
     let suono = document.querySelector("#crack");
     suono.play();
-    /*sleep(1);*/
+    sleep(1);
     ragno.src = "assets/img/ragnetto.png";
     ragno.alt = "ragnetto";
     scatola.appendChild(ragno);
