@@ -174,14 +174,14 @@
       */
 
       let input = document.getElementById('input-field')
-      input.addEventListener('keydown', () => console.log(input.value.slice(-1)));
+      input.addEventListener('keyup', () => console.log(input.value.slice(-1)));
 
       /* ESERCIZIO 12
        Crea un messaggio di benvenuto con un alert quando la pagina ha finito di caricarsi.
       */
 
       window.onload = function () {
-        //
+        console.log('benevenuta') 
       }
     </script>
   </body>
