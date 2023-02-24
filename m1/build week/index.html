@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800&family=Outfit:wght@300;600&display=swap"
+        rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="logo">
+        <img src="assets/img/epicode_logo.png" alt="Logo">
+    </div>
+
+    <div id="target"></div>
+
+    <div id="template" class="hide">
+
+        <div class="slide">
+
+            <div class="flessibile">
+                <p class="question"></p>
+
+                <div class="answers">
+                    <button class="option" onclick="calcolaPunteggio(this)"></button>
+                </div>
+
+                <div>
+                    <p class="conteggio"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="templateResult" class="hide">
+
+        <div class="prova">
+            <div id="results">
+                <div>Risultato</div>
+                <div>Riassunto delle tue risposte:</div>
+            </div>
+            <div id="allthree">
+                <div class="board">
+                    <div>Corrette</div>
+                    <div class="correct">3</div>
+                    <div></div>
+                </div>
+                <div class="graphic">
+
+                    <div id="punt"> Punteggio
+                        64.52%
+                        20/31 domande
+                        Congratulazioni, hai superato l'esame!
+                        Ti invieremo un certificato in pochi minuti
+                        Controlla la tua email (incluse promozioni e cartella spam)</div>
+
+                </div>
+                <div class="board">
+                    <div>Sbagliate</div>
+                    <div class="incorrect">7</div>
+                    <div></div>
+                </div>
+            </div>
+            <button class="goRate" onclick="valutaci()">rate us</button>
+        </div>
+    </div>
+
+    <div id="templateRate" class="hide">
+
+        <div class="todo">
+            <div class="feedback">
+                <div class="titolofeedback">Dicci come sta andando</div>
+                <p class="testofeedback">Da 0 a 10, quanto consiglieresti EPICODE <br> ad un amico o collega?</p>
+                <div id="stelline">
+                    <span class="stellina"><img src="assets/img/star.svg" alt=""></span>
+                    <span class="stellina"><img src="assets/img/star.svg" alt=""></span>
+                    <span class="stellina"><img src="assets/img/star.svg" alt=""></span>
+                    <span class="stellina"><img src="assets/img/star.svg" alt=""></span>
+                    <span class="stellina"><img src="assets/img/star.svg" alt=""></span>
+                    <span class="stellina"><img src="assets/img/star.svg" alt=""></span>
+                    <span class="stellina"><img src="assets/img/star.svg" alt=""></span>
+                    <span class="stellina"><img src="assets/img/star.svg" alt=""></span>
+                    <span class="stellina"><img src="assets/img/star.svg" alt=""></span>
+                    <span class="stellina"><img src="assets/img/star.svg" alt=""></span>
+
+                </div>
+                <p class="testofeedback">Lasciaci un feedback sincerto della tua esperienza a questa parte</p>
+                <input id="feedback" type="text" placeholder="Lascia qui il tuo feedback">
+                <div><button class="info" onclick="informazioni()">PIU' INFO</button></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="templateRecap" class="hide">
+
+        <div class="page">
+            <div class="head">
+
+                <div class="cella1">DOMANDA</div>
+                <div class="cella2">RISPOSTA CORRETTA</div>
+                <div class="cella3">RISPOSTA SELEZIONATA</div>
+
+            </div>
+
+            <div class="riga">
+
+                <div class="cella1">DOMANDA</div>
+                <div class="cella2">RISPOSTA CORRETTA</div>
+                <div class="cella3">RISPOSTA SELEZIONATA</div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <div id="container">
+
+        <div id="titolo">
+            <h1>Benvenuto al <strong>tuo esame</strong></h1>
+        </div>
+
+        <div id="istruzioni">
+            <h2 class="titolo-benvenuto">Istruzioni</h2>
+
+            <p class="testo">
+                Non ci aspettiamo che degli ingegneri sappiano rispondere a tutte le domande, quindi non preoccuparti se
+                non riuscirai a
+                rispondere ad alcune di queste.
+            </p>
+        </div>
+
+        <div>
+            <ul class="testo">
+                <li>Le domande sono a <strong> tempo </strong> e alcune accettano <strong>solo una risposta.</strong>
+                </li>
+                <li>Cambiare finestra nel browser o aprire nuove finestre renderà <strong>la domanda non
+                        valida.</strong></li>
+                <li>Questo esame richiederà approssimativamente <strong>0-5 minuti.</strong></li>
+            </ul>
+        </div>
+        <div id="footer">
+            <div id="inputPreview">
+                <input name="cssCheckbox" type="checkbox" id="demo_opt_1" class="css_checkbox" required />
+                <label for="demo_opt_1"><span id="WPstring"><b>Prometto di rispondere senza l'aiuto di
+                            nessuno</b></span></label>
+
+            </div>
+
+            <button class="bottone">PROCEDI</button>
+        </div>
+    </div>
+    <script src="assets/js/build-week.js"></script>
+
+</body>
+
+</html>
